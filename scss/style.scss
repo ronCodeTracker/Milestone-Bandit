@@ -1,0 +1,36 @@
+
+
+
+
+@import 'config';
+
+@function text-color-picker($color) {
+    @if(lightness($color) > 70) {
+        @return black;
+    }
+    @else {
+        @return white;
+    }
+}
+
+
+
+@mixin set-bg($color) {
+    background-color: $color;
+    color: text-color-picker($color)
+}
+
+
+body{
+    @include set-bg($primary-color);
+}
+
+
+aside, nav{
+    @include set-bg($primary-color);
+}
+
+
+footer, header {
+    @include set-bg($primary-color);
+}

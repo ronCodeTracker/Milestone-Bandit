@@ -21,11 +21,11 @@
     --night-forest: #2F3E46;
 }
 
+*{background-color: peachpuff;}
 
-
-body {
+/*body {
     background-color: white;
-}
+}*/
 
 
 body {
@@ -33,9 +33,9 @@ body {
     font-family: sans-serif;
     text-align: center;
     /*background-color: var(--night-forest);*/
-    background-color: white;
+    /*background-color: white;*/
     /*color: var(--pale-sage);*/
-    color: blue;
+    /*color: blue;*/
 }
 
 
@@ -54,14 +54,14 @@ main {
 aside, nav {
     border: 2px solid teal;
     /*background-color: var(--dusty-emerald);*/
-    background-color: white;
+    /*background-color: white;*/
     flex-grow: 2;
     
 }
 
 footer, header {
     /*background-color: var(--sage);*/
-    background-color: white;
+    /*background-color: white;*/
     flex-grow: 1;
     color: black;
 }
